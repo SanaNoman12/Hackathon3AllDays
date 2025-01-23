@@ -98,7 +98,7 @@ interface Props {
   };
 }
 
-const Page = async ({ params }: Props) => {
+const Page = async ({ params }: { params: { id: string} } ) => {
   const product = await getProduct(params.id);
 
   if (!product) {
