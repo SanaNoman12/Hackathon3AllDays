@@ -90,7 +90,7 @@ export default function Footer() {
             <div className='bg-[#4F4F4F] p-5 mt-7'>
                 <div className='lg:mx-[90px]'>
                     <div className='flex md:justify-between flex-col md:flex-row items-center'>
-                        <p className='text-white'> Copyright © 2022 by Misbah. All Rights Reserved. </p>
+                        <p className='text-white'> Copyright © 2022 by SanaNoman. All Rights Reserved. </p>
                         <div className='flex justify-between md:justify-center items-center gap-5 mt-3 md:mt-0'>
                             <div className="w-10 h-10 flex justify-center items-center bg-white rounded">
                                 <Image src={FbIcon} alt="Facebook" />
